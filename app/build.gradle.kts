@@ -49,11 +49,13 @@ dependencies {
     // Room components
     implementation ("androidx.room:room-ktx:2.5.2")
     annotationProcessor("androidx.room:room-compiler:2.5.2")
+    annotationProcessor ("android.arch.persistence.room:compiler:1.1.1")
     androidTestImplementation ("androidx.room:room-testing:2.5.2")
     // Lifecycle components
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
     implementation ("androidx.lifecycle:lifecycle-common-java8:2.6.1")
+    implementation ("androidx.fragment:fragment-ktx:1.6.1")
     // Kotlin components
     implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0")
     api ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")

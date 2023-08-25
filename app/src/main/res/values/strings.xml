@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WordRoomSample</string>
+    <string name="add_word">Add\n</string>
 </resources>
